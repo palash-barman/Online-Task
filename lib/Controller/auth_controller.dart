@@ -26,8 +26,8 @@ class AuthController extends GetxController{
           Get.off( HomeScreen());
         }
       } on Exception catch (e) {
-        debugPrint("Login error");
-        // TODO
+        debugPrint("Login error $e");
+       
       }
 
 

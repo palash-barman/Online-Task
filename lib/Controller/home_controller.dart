@@ -24,7 +24,7 @@ class HomeController extends GetxController{
       }
     } on Exception catch (e) {
       debugPrint("user fetch error $e");
-      // TODO
+      
     }finally{
       isLoading(false);
     }

@@ -3,8 +3,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:test_project/Screen/Auth/log_in_screen.dart';
 
-void main() async{
-  await ScreenUtil.ensureScreenSize();
+void main() {
+ 
   runApp(const MyApp());
 }
 
